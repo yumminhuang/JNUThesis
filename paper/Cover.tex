@@ -1,0 +1,29 @@
+﻿\documentclass[winfonts,UTF8]{ctexart}
+\usepackage{ulem}
+
+%预定义环境
+\newcommand{\begincom}[3]{
+\makebox[30mm][s]{\heiti{#1:}}\uline{\kaishu\makebox[#2]{#3}}
+}
+
+\begin{document}
+  \begin{titlepage}
+  \vspace*{5mm}
+    \begin{center}
+        {\heiti\zihao{1} 计算机科学技术新进展\\[2mm] 课程论文}\\[20mm]
+        {\zihao{-2} \begincom{课程编号}{70mm}{08060119}}\\
+        {\zihao{-2} \begincom{课程性质}{70mm}{专业课}\\
+                    \begincom{课程性质}{70mm}{选修课}\\
+                    \begincom{开课单位}{70mm}{信息学院计算机系}\\
+                    \begincom{学期}{70mm}{2012-2013学年第一学期}\\
+                    \begincom{专业}{70mm}{软件工程}\\
+                    \begincom{学号}{70mm}{2009052388}\\
+                    \begincom{姓名}{70mm}{黄亚铭}\\
+                    \begincom{授课老师}{70mm}{孙恒}\\[3mm]
+                    \begincom{评阅人}{70mm}{孙恒}
+        }\\[25mm]
+        \zihao{3} \today
+    \end{center}
+ \end{titlepage}
+
+\end{document}
